@@ -478,12 +478,6 @@ footer {
 /* Button menu */
 
 
-.portfolio-btn-menu {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-}
 
 .filter.list {
   display: flex;
@@ -500,16 +494,15 @@ footer {
 
 .btn {
 
- font-size: 16px;
- font-weight: 500;
- line-height: 1.6;
-
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+ text-align: center;
+ 
  border: 2px solid transparent;
  border-radius: 4px;
  padding: 6px 25px;
- border-radius: 4px;
-
-}
+ }
 
 .btn.element {
   color: var(--title-text-color);
