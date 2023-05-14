@@ -43,6 +43,10 @@ html {
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+}
+
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -126,6 +130,7 @@ body {
   font-size: 26px;
   color: var(--accent-color);
   text-decoration: none;
+  line-height: 1.4;
 }
 
 .logo > .logo-type {
@@ -531,6 +536,14 @@ footer {
 
 /* Portfolio */
 
+.item-container {
+  padding-left: 24px;
+  padding-right: 24px;
+  border-left: 1px solid var(--underline-color);
+  border-right: 1px solid var(--underline-color);
+  border-bottom: 1px solid var(--underline-color);
+}
+
 .portfolio.list {
 
   display: flex;
@@ -540,10 +553,12 @@ footer {
 
 .portfolio-item {
   margin: 15px;
+  
 }
 
+
 .subtitle.portfolio {
-  margin-top: 20px;
+  padding-top: 20px;
 
   text-transform: none;
   font-size: 18px;
@@ -554,5 +569,5 @@ footer {
 
 .subtitle-text.type {
   margin-top: 4px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
 }
