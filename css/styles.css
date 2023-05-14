@@ -24,7 +24,6 @@
 /* box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 
 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 
 0px 1px 3px 0px rgba(0, 0, 0, 0.12); */
-    
 
 /* 
 
@@ -53,15 +52,13 @@ img {
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --hover-button-color: #1d86dd;
-  --background-color: #2F303A;
+  --background-color: #2f303a;
   --logo-color: #000000;
 
-  --underline-color: #ECECEC;
-  
-/* Portfolio */
---btn-menu-color: #F5F4FA;
+  --underline-color: #ececec;
 
-
+  /* Portfolio */
+  --btn-menu-color: #f5f4fa;
 
   --footer-address-color: rgba(255, 255, 255, 0.6);
 
@@ -78,8 +75,6 @@ body {
   margin: 0;
 }
 
-
-
 /* Скрытие логических элементов (шаблон) 
 (Например семантически необходимый, 
 но не нужный заголовок в section */
@@ -91,7 +86,7 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -100,6 +95,10 @@ body {
 
 .section {
   margin-bottom: 94px;
+}
+
+.section.filters {
+  margin-bottom: 50px;
 }
 
 /* Page header */
@@ -115,10 +114,7 @@ body {
   margin: 0 auto;
 }
 
-
 /* LOGO */
-
-
 
 .main-nav {
   display: flex;
@@ -147,7 +143,6 @@ body {
   margin-bottom: 20px;
 }
 
-
 /* Navigation */
 
 .list {
@@ -161,8 +156,8 @@ body {
   margin-left: 93px;
 }
 
-
-.site-nav .item + .item, .contacts .item + .item {
+.site-nav .item + .item,
+.contacts .item + .item {
   margin-left: 50px;
 }
 
@@ -172,8 +167,7 @@ body {
 }
 
 .nav-link,
-.contacts-link
- {
+.contacts-link {
   display: block;
   padding: 32px 0;
 
@@ -184,9 +178,8 @@ body {
   line-height: 1.17;
 }
 
-
 .contacts-link {
-  color: var(--primary-text-color)
+  color: var(--primary-text-color);
 }
 
 .nav-link:hover,
@@ -208,7 +201,7 @@ body {
   margin-bottom: 0;
 
   color: var(--primary-white-color);
-  
+
   text-transform: uppercase;
   font-size: 44px;
   font-weight: 900;
@@ -255,7 +248,6 @@ button.primary:focus {
   cursor: pointer;
 }
 
-
 /* Sections & titles & lists & sybtitles */
 
 /* h2 */
@@ -278,7 +270,7 @@ button.primary:focus {
 /* Lists */
 .feauture-list {
   display: flex;
-flex-wrap: wrap;
+  flex-wrap: wrap;
 
   font-size: 14px;
   font-weight: 400;
@@ -308,11 +300,7 @@ flex-wrap: wrap;
 .about-list .item {
   width: 370px;
   margin: 15px;
-
 }
-
-
-
 
 /* .about-list {
   display: flex;
@@ -343,9 +331,8 @@ flex-wrap: wrap;
   width: 270px;
   margin: 15px;
 
-text-align: center;
+  text-align: center;
 }
-
 
 /* Subtitle h3 */
 .subtitle {
@@ -373,13 +360,12 @@ text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
-} 
-
+}
 
 .subtitle-text.team {
   margin-top: 0;
   margin-bottom: 30px;
-  
+
   font-size: 16px;
   line-height: 1.18;
 }
@@ -392,7 +378,7 @@ text-align: center;
   padding-right: 15px;
   margin-top: 0px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
 }
 
 /* title centering */
@@ -413,7 +399,7 @@ footer {
   padding: 0 15px;
   margin-top: 0px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
   margin-bottom: 0;
 }
 
@@ -428,14 +414,13 @@ footer {
   display: inline-block;
   color: var(--primary-white-color);
   margin-bottom: 9px;
-
 }
 
 .footer.contacts-link {
   display: inline-block;
   margin-bottom: 9px;
   padding: 0px;
-  
+
   color: var(--footer-address-color);
 }
 
@@ -443,11 +428,9 @@ footer {
   padding-bottom: 60px;
 }
 
-
 .footer.contacts-link:hover {
   color: var(--accent-color);
 }
-
 
 /* 1 of flex variants */
 
@@ -484,16 +467,13 @@ footer {
 
 /* Portfolio styles */
 
-
 /* Button menu */
-
-
 
 .filter.list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-   margin: -4px;
+  margin: -4px;
   padding: 0;
 }
 
@@ -503,16 +483,15 @@ footer {
 }
 
 .btn {
-
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
- text-align: center;
- 
- border: 2px solid transparent;
- border-radius: 4px;
- padding: 6px 25px;
- }
+  text-align: center;
+
+  border: 2px solid transparent;
+  border-radius: 4px;
+  padding: 6px 25px;
+}
 
 .btn.element {
   color: var(--title-text-color);
@@ -520,7 +499,7 @@ footer {
   border: 1px solid transparent;
 }
 
-.btn.element:hover, 
+.btn.element:hover,
 .btn.element:focus {
   color: var(--primary-white-color);
   background-color: var(--hover-button-color);
@@ -545,7 +524,6 @@ footer {
 }
 
 .portfolio.list {
-
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
@@ -553,9 +531,7 @@ footer {
 
 .portfolio-item {
   margin: 15px;
-  
 }
-
 
 .subtitle.portfolio {
   padding-top: 20px;
@@ -564,7 +540,6 @@ footer {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 6%;
-
 }
 
 .subtitle-text.type {
