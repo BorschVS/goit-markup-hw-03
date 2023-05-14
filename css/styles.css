@@ -94,7 +94,16 @@ body {
   overflow: hidden;
 }
 
+.section {
+  margin-bottom: 94px;
+}
+
 /* Page header */
+
+.page-header {
+  margin-bottom: 94px;
+  border-bottom: 1px solid var(--underline-color);
+}
 
 .header-container {
   width: 1200px;
@@ -377,7 +386,6 @@ text-align: center;
   padding-left: 15px;
   padding-right: 15px;
   margin-top: 0px;
-  margin-bottom: 94px;
   margin-left: auto;
   margin-right: auto; 
 }
@@ -470,9 +478,6 @@ footer {
 } */
 
 /* Portfolio styles */
-.header-container.correct {
-  margin-bottom: 94px;
-}
 
 
 /* Button menu */
