@@ -53,6 +53,8 @@ img {
   --primary-white-color: #ffffff;
   --hover-button-color: #1d86dd;
   --background-color: #2f303a;
+  --second-bg-color: #F5F4FA;
+
   --logo-color: #000000;
 
   --underline-color: #ececec;
@@ -95,6 +97,13 @@ body {
 
 .section {
   margin-bottom: 94px;
+}
+
+.section.team {
+margin-bottom: 0;
+padding-bottom: 94px;
+
+background-color: var(--second-bg-color);
 }
 
 .main-section {
@@ -258,6 +267,12 @@ button.primary:focus {
 /* Sections & titles & lists & sybtitles */
 
 /* h2 */
+
+.section.team {
+  background-color: var(--second-bg-color);
+margin-bottom: 0;
+padding-bottom: 94px;
+}
 
 .section-title {
   color: var(--title-text-color);
@@ -443,7 +458,8 @@ footer {
   display: inline-block;
   margin-bottom: 9px;
   padding: 0px;
-
+  
+  font-weight: 400;
   color: var(--footer-address-color);
 }
 
