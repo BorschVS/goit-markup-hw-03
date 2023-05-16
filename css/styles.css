@@ -97,8 +97,11 @@ body {
   margin-bottom: 94px;
 }
 
-.section.filters {
-  margin-bottom: 50px;
+.main-section {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
 }
 
 /* Page header */
@@ -119,6 +122,10 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
+}
+
+.nav-link.visit {
+  color: var(--accent-color);
 }
 
 .logo {
@@ -330,8 +337,19 @@ button.primary:focus {
 .team-list .item {
   width: 270px;
   margin: 15px;
+  background-color: var(--primary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
   text-align: center;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  
 }
 
 /* Subtitle h3 */
@@ -339,8 +357,13 @@ button.primary:focus {
   margin-bottom: 0;
   margin-top: 0;
 
-  color: var(--title-text-color);
   font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+  
 }
 
 .subtitle-text {
@@ -474,6 +497,7 @@ footer {
   flex-wrap: wrap;
   justify-content: center;
   margin: -4px;
+  margin-bottom: 50px;
   padding: 0;
 }
 
@@ -518,6 +542,8 @@ footer {
 .item-container {
   padding-left: 24px;
   padding-right: 24px;
+
+  background-color: var(--primary-white-color);
   border-left: 1px solid var(--underline-color);
   border-right: 1px solid var(--underline-color);
   border-bottom: 1px solid var(--underline-color);
@@ -533,6 +559,10 @@ footer {
   margin: 15px;
 }
 
+.portfolio-link {
+  text-decoration: none;
+}
+
 .subtitle.portfolio {
   padding-top: 20px;
 
@@ -545,4 +575,11 @@ footer {
 .subtitle-text.type {
   margin-top: 4px;
   margin-bottom: 20px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
 }
