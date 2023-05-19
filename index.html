@@ -23,8 +23,7 @@
     <!-- Header -->
     <header class="page-header">
       <div class="header-container">
-        <!-- Navigation -->
-        <nav class="main-nav">
+        <div class="logo-conteiner">
           <a
             href="https://borschvs.github.io/goit-markup-hw-01/"
             class="logo"
@@ -32,13 +31,25 @@
             target="_blank"
             >Web<span class="logo-type">Studio</span></a
           >
+        </div>
 
+        <!-- Navigation -->
+        <nav class="main-nav">
           <ul class="site-nav list">
             <li class="item"><a href="#" class="nav-link visit">Студія</a></li>
-            <li class="item"><a href="./portfolio.html" class="nav-link" target="_self" rel="nofollow">Портфоліо</a></li>
+            <li class="item">
+              <a
+                href="./portfolio.html"
+                class="nav-link"
+                target="_self"
+                rel="nofollow"
+                >Портфоліо</a
+              >
+            </li>
             <li class="item"><a href="#" class="nav-link">Контакти</a></li>
           </ul>
-
+        </nav>
+        <div class="contacts-container">
           <ul class="contacts list">
             <li class="item">
               <a href="mailto:info@devstudio.com" class="contacts-link"
@@ -51,45 +62,47 @@
               >
             </li>
           </ul>
-        </nav>
+        </div>
       </div>
     </header>
 
     <!-- Main content -->
     <main>
       <section class="hero">
+        <div class="container">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="button primary">Замовити послугу</button>
+      </div>
       </section>
 
       <!-- Feautures -->
       <section class="section">
-        <div class="container">
+        <div class="feauture container">
           <h2 class="visually-hidden">Наші переваги</h2>
           <ul class="feauture-list list">
             <li class="item">
               <h3 class="subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="subtitle-text">
+              <p class="feauture-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
             <li class="item">
               <h3 class="subtitle">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="subtitle-text">
+              <p class="feauture-text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
             <li class="item">
               <h3 class="subtitle">ПЛАНУВАННЯ</h3>
-              <p class="subtitle-text">
+              <p class="feauture-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="item">
               <h3 class="subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="subtitle-text">
+              <p class="feauture-text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -134,13 +147,15 @@
       <!-- Team -->
 
       <section class="section team">
-        <h2 class="section-title team centered">Наша команда</h2>
-        <div class="container">
+        <div class="container team">
+          <h2 class="section-title team centered">Наша команда</h2>
           <ul class="team-list list">
             <li class="item">
               <img src="images/pd.jpg" alt="Веселий чоловік" width="270" />
-              <h3 class="subtitle team">Ігор Дем'яненко</h3>
+              <div class="subtitle-container">
+              <h3 class="subtitle-team">Ігор Дем'яненко</h3>
               <p class="subtitle-text team">Product Designer</p>
+            </div>
             </li>
             <li class="item">
               <img
@@ -148,8 +163,10 @@
                 alt="Усміхнена дівчина"
                 width="270"
               />
-              <h3 class="subtitle team">Ольга Рєпіна</h3>
+              <div class="subtitle-container">
+              <h3 class="subtitle-team">Ольга Рєпіна</h3>
               <p class="subtitle-text team">Frontend Developer</p>
+            </div>
             </li>
             <li class="item">
               <img
@@ -157,13 +174,17 @@
                 alt="Усміхнений чоловік"
                 width="270"
               />
-              <h3 class="subtitle team">Микола Тарасов</h3>
+              <div class="subtitle-container">
+              <h3 class="subtitle-team">Микола Тарасов</h3>
               <p class="subtitle-text team">Marketing</p>
+            </div>
             </li>
             <li class="item">
               <img src="images/ui.jpg" alt="Впевнений чоловік" width="270" />
-              <h3 class="subtitle team">Михайло Єрмаков</h3>
+              <div class="subtitle-container">
+              <h3 class="subtitle-team">Михайло Єрмаков</h3>
               <p class="subtitle-text team">UI Designer</p>
+            </div>
             </li>
           </ul>
         </div>
@@ -171,7 +192,9 @@
     </main>
     <footer>
       <div class="footer container">
-        <a href="#" class="logo footer">Web<span class="logo-type">Studio</span></a>
+        <a href="#" class="logo footer"
+          >Web<span class="logo-type">Studio</span></a
+        >
         <address class="location">
           <span class="location-type">м. Київ, пр-т Лесі Українки, 26</span>
           <ul class="footer list">
