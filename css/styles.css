@@ -170,9 +170,18 @@ body {
   margin-left: 93px;
 }
 
-.site-nav .item + .item,
+/* Один из вариантов установки корректных отступов без первого элемента */
+
+/* .site-nav .item + .item,
 .contacts .item + .item {
   margin-left: 50px;
+} */
+
+/* Современный вариант */
+
+.site-nav,
+.contacts {
+  gap: 50px;
 }
 
 .contacts-container {
