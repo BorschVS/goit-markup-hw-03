@@ -131,17 +131,11 @@ body {
 
 /* LOGO */
 
-.main-nav {
-  display: flex;
-  align-items: center;
-}
-
 .nav-link.visit {
   color: var(--accent-color);
 }
 
 .logo {
-  display: flex;
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   color: var(--accent-color);
@@ -187,6 +181,7 @@ body {
 
 .contacts.list {
   display: flex;
+  margin-left: auto;
 }
 
 .nav-link,
